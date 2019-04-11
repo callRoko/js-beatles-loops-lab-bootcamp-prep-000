@@ -19,5 +19,11 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(number){
-  return 'string'
+  var band = []
+  var i = 0
+  do{
+   band.push("I love the Beatles!")
+   i += 1
+  } while(i < number)
+  return band
 }
