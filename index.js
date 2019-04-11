@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments){
  for (let players = 0; players < musicians.length; players++){
    counter.push("${musicians} plays ${instruments}")
  }
- return players;
+ return 'string'
 }
 
 const facts = ["He was the last Beatle to learn to drive",
