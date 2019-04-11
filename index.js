@@ -20,10 +20,10 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var band = []
-  var i = 0
+ // var i = 0
   do{
    band.push("I love the Beatles!")
-   i += 1
-  } while(i < number)
+   number += 1
+  } while(number < 15)
   return band
 }
