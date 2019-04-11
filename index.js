@@ -4,7 +4,7 @@
 function theBeatlesPlay(musicians, instruments){
   var counter = []
  for (let players = 0; players < musicians.length; players++){
-   counter.push("${musicians} plays ${instruments}")
+   counter.push(`${musicians} plays ${instruments}`)
  }
  return counter
 }
