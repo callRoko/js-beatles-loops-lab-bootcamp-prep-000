@@ -18,4 +18,6 @@ function johnLennonFacts(facts){
   return newFacts
 }
 
-function iLoveTheBeatles()
+function iLoveTheBeatles(){
+  return 'string'
+}
